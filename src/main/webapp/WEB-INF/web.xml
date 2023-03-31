@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>23-ism-tuto1</display-name>
+  <welcome-file-list>
+
+ <!--   <welcome-file>SignUp.html</welcome-file>
+  <welcome-file>calculator.html</welcome-file>-->
+  
+    
+  </welcome-file-list>
+  
+  <!--  <servlet>
+  <servlet-name>SignUpController</servlet-name>
+  <servlet-class>com.Google.controller.SignUpController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>SignUpController</servlet-name>
+  <url-pattern>/SignUpController</url-pattern>
+  </servlet-mapping> -->
+  
+  <servlet>
+  <servlet-name>calculator</servlet-name>
+  <servlet-class>com.Google.controller.calculator</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>calculator</servlet-name>
+  <url-pattern>/calculator</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
