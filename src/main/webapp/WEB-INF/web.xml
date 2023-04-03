@@ -3,13 +3,13 @@
   <display-name>23-ism-tuto1</display-name>
   <welcome-file-list>
 
- <!--   <welcome-file>SignUp.html</welcome-file>
-  <welcome-file>calculator.html</welcome-file>-->
+   <welcome-file>SignUp.jsp</welcome-file> 
+ <!-- <welcome-file>calculator.html</welcome-file> -->
   
-    
+     
   </welcome-file-list>
   
-  <!--  <servlet>
+      <!-- <servlet>
   <servlet-name>SignUpController</servlet-name>
   <servlet-class>com.Google.controller.SignUpController</servlet-class>
   </servlet>
@@ -17,9 +17,9 @@
   <servlet-mapping>
   <servlet-name>SignUpController</servlet-name>
   <url-pattern>/SignUpController</url-pattern>
-  </servlet-mapping> -->
+  </servlet-mapping> 
   
-  <servlet>
+    <servlet>
   <servlet-name>calculator</servlet-name>
   <servlet-class>com.Google.controller.calculator</servlet-class>
   </servlet>
@@ -28,6 +28,7 @@
   <servlet-name>calculator</servlet-name>
   <url-pattern>/calculator</url-pattern>
   </servlet-mapping>
-  
+  -->
+
   
 </web-app>

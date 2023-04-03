@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,6 +7,8 @@
 <title>Title </title>
 </head>
 <body>
+<%String str = (String)request.getAttribute("error"); %>
+<%= str %>
 	<form action="SignUpController" method="post" align="center">
 	
 		<h1>Form</h1>
